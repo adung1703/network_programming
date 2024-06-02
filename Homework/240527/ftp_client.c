@@ -9,7 +9,7 @@
 #include <errno.h>
 
 int client;
-int IP[16];
+char IP[16];
 
 unsigned short send_pasv();
 int send_list();
